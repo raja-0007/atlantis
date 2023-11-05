@@ -1,0 +1,44 @@
+.towerslist{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+.towerslist>*{
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+.towerbtn{
+    padding: 16px 40px;
+    border: 1.5px solid #D6B25E;
+    color: #D6B25E;
+    background-color: white;
+    transition: all .5s;
+    font-size: 15.7px;
+    line-height: 15.7px;
+    font-weight: 700;
+}
+
+.towerbtn:hover{
+    background-color: #D6B25E;
+    color: white;
+}
+#towerbtn1{
+    background-color: #D6B25E;
+    color: white;
+}
+@media screen and (max-width:575px){
+    .towerbtn{
+        padding: 12px 20px;
+        border: 1.5px solid #D6B25E;
+        color: #D6B25E;
+        background-color: white;
+        transition: all .5s;
+        font-size: 15.7px;
+        line-height: 15.7px;
+        font-weight: 700;
+    }
+}

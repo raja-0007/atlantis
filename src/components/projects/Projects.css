@@ -1,0 +1,130 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+.projects>:nth-child(1) {
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 52px;
+    color: #2B2E66;
+
+}
+
+.projects>:nth-child(2) {
+    color: #999999;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    padding: 0px 50px;
+
+}
+
+.psliderdiv {
+    background-color: white;
+    color: #999999;
+    height: 500px;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    transition: all .3s;
+}
+
+.psliderdiv>:nth-child(1) {
+    width: 330px;
+    height: 400px;
+
+}
+
+.psliderdiv>:nth-child(2) {
+    font-size: 26px;
+    line-height: 35px;
+    font-weight: 700;
+    color: #D6B25E;
+
+
+}
+
+.psliderdiv>:nth-child(3) {
+
+    font-size: 17px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #999999;
+
+}
+
+.swiper {
+    width: 100%;
+
+}
+
+@media screen and (max-width:575px) {
+    .projects>:nth-child(1) {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 36px;
+        color: #2B2E66;
+
+    }
+
+    .projects>:nth-child(2) {
+        color: #999999;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        text-align: center;
+        padding: 0px 20px;
+
+    }
+
+    .psliderdiv {
+        background-color: white;
+        color: #999999;
+        height: fit-content;
+        width: 330px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+        transition: all .3s;
+    }
+
+    .psliderdiv>:nth-child(1) {
+        width: 250px;
+        height: 304px;
+
+    }
+
+    .psliderdiv>:nth-child(2) {
+        font-size: 20px;
+        line-height: 27px;
+        font-weight: 700;
+        color: #D6B25E;
+
+
+    }
+
+    .psliderdiv>:nth-child(3) {
+
+        font-size: 16px;
+        line-height: 21px;
+        font-weight: 400;
+        color: #999999;
+
+    }
+    
+   
+    
+}

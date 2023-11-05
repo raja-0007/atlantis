@@ -1,0 +1,219 @@
+.swiperdiv2 {
+    width: 90%;
+    height: 500px;
+}
+
+.customers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    
+
+}
+
+.customers>:nth-child(1) {
+    font-size: 46px;
+    line-height: 52px;
+    font-weight: 600;
+    color: #2B2E66;
+
+}
+
+.swiper {
+    width: 90%;
+    height: max-content;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.sliderdiv2 {
+    background-color: white;
+    color: #747474;
+    height: 448px;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 30px 20px;
+    box-shadow: 0px 0px 20px 2px hsl(0, 0%, 0%, .1);
+    transition: all .3s;
+}
+
+.sliderdiv2>:nth-child(1) {
+    width: 100px;
+    height: 100px;
+}
+
+.sliderdiv2>:nth-child(2) {
+
+    color: #D6B25E;
+    font-size: 19px;
+    line-height: 26px;
+    font-weight: 700;
+}
+
+.sliderdiv2>:nth-child(3) {
+    margin-top: 1rem;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 300;
+
+}
+
+.sliderdiv2>:nth-child(4) {
+    width: 100%;
+    text-align: right;
+    
+}
+
+.sliderdiv2:hover {
+    transform: scale(1.04);
+    background-color: #2B2E66;
+    color: white;
+}
+
+.swiper-button-next {
+    width: 9.4px;
+    height: 19.4px;
+    
+    right: var(--swiper-navigation-sides-offset, 0px);
+    left: auto;
+
+}
+.swiper-button-prev{
+    font-size: 9.4px;
+    width: 9.4px;
+    height: 19.4px;
+    left: var(--swiper-navigation-sides-offset, 0px);
+    right: auto;
+}
+.swiper-button-prev, .swiper-button-next {
+    --swiper-navigation-size: 19px;
+    position: absolute;
+    top: var(--swiper-navigation-top-offset, 50%);
+    width: 40px;
+    height: 40px;
+    
+    margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #D6B25E;
+    background-color: white;
+    border: 3px solid #D6B25E;
+    transition: all .3s;
+}
+.swiper-button-prev:hover, .swiper-button-next:hover{
+    background-color: #D6B25E;
+    color: white;
+}
+.sliderouter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+@media screen and (max-width:575px) {
+    .customers {
+        text-align: center;
+        
+    
+    }
+    .customers>:nth-child(1) {
+        font-size: 32px;
+        line-height: 36px;
+        font-weight: 600;
+        color: #2B2E66;
+    
+    }
+    .sliderdiv2 {
+        
+        height: 416px;
+        width: 249px;
+        
+        align-items: center;
+        
+        padding: 30px 20px;
+        
+    }
+    .sliderdiv2>:nth-child(1) {
+        width: 96px;
+        height: 96px;
+    }
+    
+    .sliderdiv2>:nth-child(2) {
+    
+        color: #D6B25E;
+        font-size: 16px;
+        line-height: 21px;
+        font-weight: 700;
+    }
+    
+    .sliderdiv2>:nth-child(3) {
+        margin-top: 1rem;
+        font-size: 16px;
+        line-height: 21px;
+        font-weight: 300;
+    
+    }
+    
+    .sliderdiv2>:nth-child(4) {
+        width: 100%;
+        text-align: center;
+        
+    }
+    .swiper {
+        width: 100%;
+        height: max-content;
+        padding: 0px;
+        padding-bottom: 80px;
+        
+        display: flex;
+        justify-content: center;
+        
+    }
+    .swiper-button-next {
+        width: 9.4px;
+        height: 19.4px;
+        
+        right: var(--swiper-navigation-sides-offset, 30%);
+        left: auto;
+    
+    }
+    .swiper-button-prev{
+        font-size: 9.4px;
+        width: 9.4px;
+        height: 19.4px;
+        left: var(--swiper-navigation-sides-offset, 30%);
+        right: auto;
+    }
+    .swiper-button-prev, .swiper-button-next {
+        --swiper-navigation-size: 19px;
+        position: absolute;
+        top: var(--swiper-navigation-top-offset, 90%);
+        width: 40px;
+        height: 40px;
+        
+        margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+        z-index: 10;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #D6B25E;
+        background-color: white;
+        border: 3px solid #D6B25E;
+        transition: all .3s;
+    }
+}

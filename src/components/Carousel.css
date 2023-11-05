@@ -1,0 +1,228 @@
+.row,.col-12{
+    margin: 0%;
+    padding: 0%;
+}
+.cardiv{
+    position: relative;
+    height: 88vh;
+    width: 100%;
+    padding: 0%;
+    background-image: url(./images/brochure.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*.carousel-item{
+    height: 88vh;
+}
+.carimg{
+    width: 100%;
+    height: 100%;
+}*/
+.enquirediv{
+    position: absolute;
+    top: 100px;
+    right: 70.42px;
+    
+    padding: 40px 40px 48px 40px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    background-color: hsl(0, 0%, 100%);
+    
+}
+.enquirediv>:nth-child(1){
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: bold;
+    color: #2B2E66;
+}
+.enquirediv-in{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.enquirediv-in>*{
+    width: 300px;
+    height: 45px;
+}
+.enquirediv-in>:nth-child(1){
+    border: 1.5px solid #D2D2D2;
+    outline: none;
+    padding-left: 15px;
+    font-size: 15px;
+}
+.enquirediv-in>:nth-child(3){
+    border: 1.5px solid #D2D2D2;
+    outline: none;
+    padding-left: 15px;
+    font-size: 15px;
+}
+/*.enquirediv-in>:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid #D2D2D2;
+    outline: none;
+
+}
+.flagdiv{
+    display: flex;
+    height: 100%;
+    width: 96px;
+    justify-content: space-around;
+    align-items: center;
+    border-right: 1.5px solid #EBEBEB;
+    background-color: #EBEBEB;
+}
+.flagdiv>span{
+    font-size: 18px;
+    color: #757575;
+}
+.usflag{
+    width: 24.7px;
+    height: 12px;
+   
+}
+.polyg{
+    width: 17.2px;
+}*/
+.enquirediv-in>:nth-child(2)>input{
+    margin-left: 13px ;
+    border: 0px;
+    outline: none;
+    
+
+
+}
+.phinp{
+    border: 1.5px solid #D2D2D2;
+    outline: none;
+    padding-left: 15px;
+    font-size: 15px;
+    
+    padding-left: 0%;
+    display: flex;
+    align-items: center;
+    
+}
+.react-tel-input .form-control{
+    border-radius: 0px;
+    width: 280px;
+    padding-left: 100px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+.react-tel-input .selected-flag{
+    padding-left: 10px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: center;
+    width: 96px;
+    border-radius: 0px;
+    background-color: #EBEBEB;
+    
+
+}
+.form-control:focus{
+    border-radius: 0px;
+    border: 0px;
+    outline: 0px;
+    
+   
+}
+.react-tel-input .selected-flag .flag{
+    transform: scale(2);
+}
+.react-tel-input .selected-flag .arrow{
+    margin-left: 5px;
+    transform: scale(1.7);
+}
+.carbtn{
+    margin-top: 24px;
+    height: 48px;
+    padding: 15px 72px;
+    background-color: #2B2E66;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.enquirediv2{
+    display: none;
+}
+.enquirediv2>:nth-child(1){
+    font-weight: 700;
+    color: #2B2E66;
+    font-size: 32px;
+    line-height: 28px;
+    text-align: center;
+}
+.enquirediv2>:nth-child(2){
+    font-weight: 400;
+    color: #747474;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    
+}
+.enquirediv2>:nth-child(3){
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: white;
+    background-color: #2B2E66;
+    padding: 16px 32px;
+}
+.enquirediv3{
+    
+    
+    padding: 40px 40px 48px 40px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    background-color: hsl(0, 0%, 100%);
+    display: none;
+    
+}
+.enquirediv3>:nth-child(1){
+    font-weight: 700;
+    line-height: 37px;
+    font-size: 32px;
+    color: #2B2E66;
+    text-align: center;
+}
+@media screen and (max-width:575px){
+    .cardiv{
+        
+        background-image: url(./images/brochure2.png);
+        
+    }
+    .enquirediv{
+        display: none;
+    }
+    .enquirediv2{
+        
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .enquirediv3{
+        display: flex;
+    }
+    
+}

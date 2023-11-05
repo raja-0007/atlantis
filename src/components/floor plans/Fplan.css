@@ -1,0 +1,71 @@
+.fplan{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.fp-1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+.fp-2{
+    width: 653px;
+    height: 530px;
+    border: 1.94px solid #D6B25E;
+}
+.fp-1>:nth-child(1){
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 36px;
+    color: #2B2E66;
+}
+.fp-1>:nth-child(2){
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #999999;
+}
+.fp-btn{
+    background-color: #2B2E66;
+    color: white;
+    padding: 16px 22.47px;
+    border: 0px;
+    outline: 0px;
+    font-size: 15.7px;
+    line-height: 15.73px;
+    font-weight: 700;
+    width: max-content;
+}
+.fplan2{
+    display: none;
+
+}
+@media screen and (max-width:575px) {
+    .fplan{
+        display: none;
+    }
+    .fplan2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .fp-1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        text-align: center;
+    }
+    .fp-2{
+        width: 356px;
+        height: 301px;
+        border: 1.94px solid #D6B25E;
+    }
+}

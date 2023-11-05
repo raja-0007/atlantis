@@ -1,0 +1,140 @@
+.growth{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+}
+.growth>:nth-child(1){
+    font-size: 46px;
+    line-height: 52px;
+    color: #2B2E66;
+    margin-bottom: 16px;
+    
+}
+.growth>:nth-child(2){
+    font-size: 20px;
+    line-height: 27px;
+    color: #747474;
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 0% 30px;
+    
+}
+.growth>:nth-child(3){
+    height: max-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    
+}
+
+.growth>:nth-child(3)>*{
+    display: flex;
+    
+    justify-content: space-between;
+    gap: 2rem;
+    
+}
+.g-div{
+    color: white;
+    background-color: #2B2E66;
+    display: flex;
+    width: 310px;
+    height: 376px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+}
+.g-div>:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    font-size: 21px;
+    line-height: 23px
+}
+.g-big{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 42px;
+}
+.yoy{
+    font-size: 21px;
+    font-weight: normal;
+}
+
+@media screen and (max-width:575px) {
+    .growth{
+        
+        text-align: center;
+    }
+    .growth>:nth-child(1){
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 36px;
+        color: #2B2E66;
+        margin-bottom: 16px;
+        text-align: center;
+        
+    }
+    .growth>:nth-child(2){
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        color: #747474;
+        margin-bottom: 40px;
+        text-align: center;
+        padding: 0% 30px;
+        
+    }
+    .growth>:nth-child(3){
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1rem;
+        
+        
+    }
+    .growth>:nth-child(3)>*{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .g-div{
+        width: 165px;
+        height: 204px;
+    }
+    .g-div>:nth-child(1)
+    {
+        width: 44px;
+        height: 40px;
+    }
+    .g-div>:nth-child(2){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        font-size: 16px;
+        line-height: 17px
+    }
+    .g-big{
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+    .yoy{
+        font-size: 16px;
+        font-weight: normal;
+    }
+    .growth>:nth-child(3)>span{
+        height: 204px;
+        
+        
+    }
+}
