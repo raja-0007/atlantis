@@ -28,7 +28,7 @@ function Faq() {
         $(document).ready(()=>{
             for (let i = 0; i < faqs.length; i++) {
                 $('#qdiv'+i.toString()).click(()=>{
-                    $('#adiv'+i.toString()).slideToggle(500)
+                    $('#adiv'+i.toString()).slideToggle(300)
                     
                     
                     
